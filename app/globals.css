@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply m-0 p-0 box-border;
+  }
+}
+
+@layer components {
+    .nav__link {
+        @apply relative text-xl w-fit block font-semibold text-white
+        after:block after:content-[""] after:absolute after:h-[3px] after:bg-yellow-400 
+        after:w-full after:scale-x-0 after:transition after:duration-300 after:origin-right 
+        hover:after:scale-x-100;
+    }
+}
