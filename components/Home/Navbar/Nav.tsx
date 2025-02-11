@@ -1,12 +1,40 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { navLinks } from "@/constant/constant";
 import Link from "next/link";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
-const Nav = () => {
+
+// define props type
+type Props = {
+  openNav:() => void;
+};
+
+const Nav = ({openNav}:Props) => {
+  const [navBg, setNavBg] = useState(false);
+
+  useEffect(() => {
+    const handler = () => {
+      if (window.scrollY >= 90) {
+        setNavBg(true);
+      }
+      if (window.scrollY < 90) {
+        setNavBg(false);
+      }
+    };
+
+    window.addEventListener("scroll", handler);
+
+    return () => window.removeEventListener("scroll", handler);
+  });
+
+
   return (
-    <div className="fixed top-0 w-full transition-all duration-200 h-[12vh] z-[1000] bg-blue-700">
+    <div 
+      className={'fixed ${navBg ? "bg-indigo-800": "fixed"} w-full transition-all duration-200 h-[12vh] z-[1000] bg-blue-700'}
+      >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* Logo */}
         <Image 
@@ -34,7 +62,9 @@ const Nav = () => {
           </button>
 
           {/* Burger Menu */}
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-white lg:hidden" />
+          <HiBars3BottomRight 
+          onClick={openNav}
+          className="w-8 h-8 cursor-pointer text-white lg:hidden" />
         </div>
       </div>
     </div>
