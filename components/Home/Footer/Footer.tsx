@@ -32,7 +32,32 @@ const Footer = () => {
                 <p className="footer_link">Desktop Development</p>
                 <p className="footer_link">Digital Marketing</p>
             </div>
+            {/* 3rd part */}
+            <div>
+                <h1 className="footer_heading">Quick Link</h1>
+                <p className="footer_link">Home</p>
+                <p className="footer_link">About</p>
+                <p className="footer_link">Courses</p>
+                <p className="footer_link">Instructor</p>
+                <p className="footer_link">Profile</p>
+                <p className="footer_link">Privacy Police</p>
+            </div>
+            {/* 4th part(newsletter) */}
+            <div>
+                <h1 className="footer__heading">Subscribe our Newsletter</h1>
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  className="px-6 py-2 rounded-lg outline-none bg-gray-700 w-full text-white"
+                />
+                <button className="px-6 py-2 mt-4 rounded-lg outline-none bg-rose-700 w-full text-white">
+                    Subscribe
+                </button>
+            </div>
         </div>
+        <p className="text-center mt-4 text-base text-white opacity-70">
+            Copyright 2024 by webdev warriors
+        </p>
     </div>
   )
 }
