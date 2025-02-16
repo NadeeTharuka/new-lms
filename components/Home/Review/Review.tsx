@@ -10,7 +10,7 @@ const Review = () => {
             <div className="xl:col-span-1 mt-6">
             {/* subHeading */}
             <div className="flex items-center space-x-4">
-             <div className="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center">
+             <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
                 <BsQuote className="h-6 w-6 text-black" />
              </div>
                 <h1 className="text-xl text-black font-semibold">
