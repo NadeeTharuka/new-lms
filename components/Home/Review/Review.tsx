@@ -11,9 +11,9 @@ const Review = () => {
             {/* subHeading */}
             <div className="flex items-center space-x-4">
              <div className="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center">
-                <BsQuote className="h-6 w-6 text-white" />
+                <BsQuote className="h-6 w-6 text-black" />
              </div>
-                <h1 className="text-xl text-white font-semibold">
+                <h1 className="text-xl text-black font-semibold">
                  Student Feedback
                 </h1>
             </div>
@@ -22,15 +22,15 @@ const Review = () => {
                 Trusted by genius people
             </h1>
             {/* description */}
-            <p className="text-base text-white text-opacity-50 mt-6">
+            <p className="text-base text-black text-opacity-50 mt-6">
                 sssssssssssssssssssssssssssss
             </p>
             {/* info */}
             <div className="flex items-center space-x-10 mt-8">
-                <p className="text-white font-bold text-5xl">
+                <p className="text-black font-bold text-5xl">
                     99%
                 </p>
-                <p className="text-white">
+                <p className="text-black">
                     Student's Complete <br /> Course Successfully
                 </p>
             </div>

@@ -4,7 +4,7 @@ import ArticleCard from './ArticleCard'
 
 const Article = () => {
   return (
-    <div className="pt-20 pb-20 bg-gray-100">
+    <div className="pt-20 pb-20 bg-white">
   <div className="w-[80%] mx-auto">
     {/* Heading */}
     <h1 className="text-4xl md:text-5xl text-gray-900 font-bold">

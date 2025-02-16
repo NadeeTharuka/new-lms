@@ -10,7 +10,7 @@ const About = () => {
         <div data-aos="fade-right" data-aos-anchor-placement="top-center" >
             <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center flex-col">
-                    <FaAward className="h-6 w-6 text-white" />
+                    <FaAward className="h-6 w-6 text-black" />
                 </div>
                 <h1 className="text-xl text-black font-semibold">
                     Guaranteed and certified

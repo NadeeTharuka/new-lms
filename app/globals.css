@@ -4,13 +4,13 @@
 
 @layer base {
   html, body {
-    @apply m-0 p-0 box-border bg-gray-900 text-white;
+    @apply m-0 p-0 box-border bg-white text-white;
   }
 }
 
 @layer components {
     .nav__link {
-        @apply relative text-xl w-fit block font-semibold text-white 
+        @apply relative text-xl w-fit block font-semibold text-black
         after:block after:content-[""] after:absolute after:h-[3px] after:bg-yellow-400 
         after:w-full after:scale-x-0 after:transition after:duration-300 after:origin-right 
         hover:after:scale-x-100;

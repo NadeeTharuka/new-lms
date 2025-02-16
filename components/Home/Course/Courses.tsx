@@ -5,7 +5,7 @@ import CourseCard from './CourseCard';
 
 const Courses = () => {
   return (
-    <div className="pt-16 pb-12 relative bg-gray-200">
+    <div className="pt-16 pb-12 relative bg-white">
       {/* Bounce ball */}
       <Image
         src="/images/cb.png"

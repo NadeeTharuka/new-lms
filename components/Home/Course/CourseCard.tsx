@@ -37,7 +37,7 @@ const CourseCard = ({ course }: Props) => {
         </div>
         <div className="p-4">
           {/* Price */}
-          <h1 className="ml-auto relative z-[10] h-20 w-20 flex items-center text-lg font-bold justify-center flex-col mt-[-4rem] rounded-full bg-rose-700 text-white">
+          <h1 className="ml-auto relative z-[10] h-20 w-20 flex items-center text-lg font-bold justify-center flex-col mt-[-4rem] rounded-full bg-rose-700 text-black">
             ${course.price}
           </h1>
         {/* information */}
