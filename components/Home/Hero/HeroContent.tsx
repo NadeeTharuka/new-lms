@@ -12,7 +12,8 @@ const HeroContent = () => {
         </h1>
         {/* Description */}
         <p data-aos="fade-left" data-aos-delay="150" className="mt-6 text-sm md:text-base text-black text-opacity-60">
-            ssssssssssssssssssss
+        Skills for your present and your future.
+        Get Started with Us
         </p>
         {/* Buttons */}
         <div className="mt-8 flex items-center space-x-4">
