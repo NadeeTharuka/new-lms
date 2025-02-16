@@ -20,8 +20,8 @@ const Feature = () => {
         <div>
           {/* subHeading */}
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center">
-              <FaBriefcase className="h-6 w-6 text-black" />
+            <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
+              <FaBriefcase className="h-6 w-6 text-white" />
             </div>
             <h1 className="text-xl text-black font-semibold">
               Premium learning experience
